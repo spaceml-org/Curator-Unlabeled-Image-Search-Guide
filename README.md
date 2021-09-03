@@ -8,7 +8,7 @@ A tool for downloading Earth images. You can download NASA satellite imagery of 
 * [GIBS Downloader repo](https://github.com/spaceml-org/GIBS-Downloader)
 * [Colab demo example](https://github.com/spaceml-org/GIBS-Downloader/blob/main/notebooks/GIBS_Downloader_Demo.ipynb)
 
-### 2. Self Supervised Learner
+### 2. Self-Supervised Learner
 Self-supervised learning program for training a machine learning model with fewer labeled data. You can train an encoder with unlabeled data and train a classifier with less amount of labeled data compared to supervised learning.
 * [Self Supervised Learner repo](https://github.com/spaceml-org/Self-Supervised-Learner)
 * [Colab demo example](https://github.com/spaceml-org/Self-Supervised-Learner/blob/simsiam/tutorials/PythonColabTutorial_Merced.ipynb)
