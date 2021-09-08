@@ -1,5 +1,6 @@
 ## Swipe Labeler
 
+### [How to set up]
 **Step 1.** Install python3 and pip.
 
 **Step 2.** Clone Swipe Labeler repo and change directory into Swipe-Labeler.
@@ -22,7 +23,8 @@ python3 -m venv venv
 pip install -r api/requirements.txt
 ```
 
-**Step 4.** Run Swipe Labeler with below form of a command
+### [How to use]
+**Step 1.** Run Swipe Labeler with below form of a command
 ```
 python api/api.py --path_for_unlabeled=(the complete path to your directory of unlabeled images) --batch_size=(optional batch size , default is 5)
 ```
@@ -32,9 +34,9 @@ ex)
 python api/api.py --path_for_unlabeled=C:\Users\Tom\Images\Clouds
 ```
 
-**Step 5.** Swipe Labeler will give you a URL like http://0.0.0.0:5000/. Open the URL in your browser.
+**Step 2.** Swipe Labeler will give you a URL like http://0.0.0.0:5000/. Open the URL in your browser.
 
-**Step 6.** Swipe Labeler will display one image at a time and you should either accept, reject or skip the image. 
+**Step 3.** Swipe Labeler will display one image at a time and you should either accept, reject or skip the image. 
 
 To accept an image, click “Accept” or swipe right or press the right arrow on the keyboard. 
 To reject an image, click “Reject” or swipe left or press the arrow left key.
