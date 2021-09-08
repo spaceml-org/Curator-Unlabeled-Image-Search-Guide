@@ -16,10 +16,9 @@ ex)
 gdl 2021-08-01 2021-08-03 "33.693, -118.620" "34.325, -118.126"
 ```
 Dates should be entered as YYYY-MM-DD and coordinates should be entered as “latitude, longitude”
-
 You can go to google Maps and right click the spot you want to get the coordinates of.
 
-
+![GIBS_Conda Prompt1](https://user-images.githubusercontent.com/66165810/132446559-8f1dfaf8-5d26-4cd6-8607-260466adf60e.gif)
 
 
 (Optional) Step 5. If you want to download tiled images of the desired region, add --tile=true to the command. You can also use arguments like --tile-width and --tile-height to set the tile size.
