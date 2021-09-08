@@ -1,16 +1,16 @@
 ## GIBS Downloader
 GIBS Downloader can be run either in conda prompt or google Colab. For google Colab demo, check out this link.
 
-Step 1. Download Anaconda or Miniconda (Anaconda in this example)
+**Step 1.** Download Anaconda or Miniconda (Anaconda in this example)
 
-Step 2. Create a conda environment and start it
+**Step 2.** Create a conda environment and start it
 
-Step 3. Run below commands to set up gdal and GIBS Downloader in conda prompt
+**Step 3.** Run below commands to set up gdal and GIBS Downloader in conda prompt
 ```
 conda install -c conda-forge gdal=3.2.0
 pip install git+https://github.com/spaceml-org/GIBS-Downloader.git#egg=GIBSDownloader
 ```
-Step 4. To download satellite images, write a command including 4 positional arguments (start-date, end-date, bottom-left-coordinates, top-right-coordinates) and hit enter. 
+**Step 4.** To download satellite images, write a command including 4 positional arguments (start-date, end-date, bottom-left-coordinates, top-right-coordinates) and hit enter. 
 
 ex) 
 ```
@@ -22,4 +22,4 @@ You can go to google Maps and right click the spot you want to get the coordinat
 ![GIBS_Conda Prompt1](https://user-images.githubusercontent.com/66165810/132446559-8f1dfaf8-5d26-4cd6-8607-260466adf60e.gif)
 
 
-(Optional) Step 5. If you want to download tiled images of the desired region, add --tile=true to the command. You can also use arguments like --tile-width and --tile-height to set the tile size.
+**(Optional) Step 5.** If you want to download tiled images of the desired region, add --tile=true to the command. You can also use arguments like --tile-width and --tile-height to set the tile size.
