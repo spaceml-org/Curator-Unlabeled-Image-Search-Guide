@@ -1,4 +1,4 @@
-## Swipe Labeler
+## Swipe Labeler Guide
 
 ### [How to set up]
 **Step 1.** Install python3 and pip.
