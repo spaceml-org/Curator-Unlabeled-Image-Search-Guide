@@ -1,4 +1,4 @@
-## GIBS Downloader
+## GIBS Downloader Guide
 GIBS Downloader can be run either in conda prompt or google Colab. 
 Click [here](https://github.com/spaceml-org/GIBS-Downloader/blob/main/notebooks/GIBS_Downloader_Demo.ipynb) to check out google Colab demo.
 
@@ -13,7 +13,7 @@ conda install -c conda-forge gdal=3.2.0
 pip install git+https://github.com/spaceml-org/GIBS-Downloader.git#egg=GIBSDownloader
 ```
 
-## [How to use]
+### [How to use]
 You can use GIBS Downloader by running a single command like this:
 ```
 gdl 2021-08-01 2021-08-03 "33.693, -118.620" "34.325, -118.126"
