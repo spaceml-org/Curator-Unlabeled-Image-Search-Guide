@@ -1,5 +1,6 @@
 ## GIBS Downloader
-GIBS Downloader can be run either in conda prompt or google Colab. For google Colab demo, check out this link.
+GIBS Downloader can be run either in conda prompt or google Colab. Click [here](https://github.com/spaceml-org/GIBS-Downloader/blob/main/notebooks/GIBS_Downloader_Demo.ipynb) to check out google Colab demo.
+
 
 **Step 1.** Download Anaconda or Miniconda (Anaconda in this example)
 
