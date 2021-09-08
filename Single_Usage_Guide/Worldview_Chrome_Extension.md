@@ -1,4 +1,4 @@
-## Worldview Chrome Extension
+## Worldview Chrome Extension Guide
 
 ### [How to set up] - To be updated
 **Step 1.** Download npm
