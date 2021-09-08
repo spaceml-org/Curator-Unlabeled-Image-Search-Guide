@@ -11,6 +11,7 @@ conda install -c conda-forge gdal=3.2.0
 pip install git+https://github.com/spaceml-org/GIBS-Downloader.git#egg=GIBSDownloader
 ```
 Step 4. To download satellite images, write a command including 4 positional arguments (start-date, end-date, bottom-left-coordinates, top-right-coordinates) and hit enter. 
+
 ex) 
 ```
 gdl 2021-08-01 2021-08-03 "33.693, -118.620" "34.325, -118.126"
