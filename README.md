@@ -35,4 +35,4 @@ A program designed to better your model in an efficient manner. Once you have a 
 
 ## Combination guide
 - [GIBS Downloader + SSL](https://colab.research.google.com/drive/1IcGzD1jWZWPc63ZAzfiFf4s9RQZ6FHRi?usp=sharing)
-- SSL + Image Similarity Search + Swipe Labeler + Active Labeller
+- [SSL + Image Similarity Search + Swipe Labeler + Active Labeller] - Coming soon
