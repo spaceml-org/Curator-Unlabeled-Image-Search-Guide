@@ -1,19 +1,26 @@
 ## Worldview Chrome Extension Guide
 
-### [How to set up] - To be updated
-**Step 1.** Download npm
-```
-npm install download
-```
+### [How to set up]
 
-**Step 2.** Clone Worldview Search Chrome Extension repo
+**Step 1.** Clone Worldview Search Chrome Extension repo
 ```
 git clone https://github.com/spaceml-org/Worldviewsearch-Chrome-Extension/
 ```
+<img width="859" alt="worldview_1" src="https://user-images.githubusercontent.com/66165810/133148657-9c3bc207-8fa9-4fde-abb4-42aa7f416d21.PNG">
 
-...
 
-**Step n.** In your chrome browser, go to chrome://extensions/ and activate the ‘developer mode’ on the top right. Click ‘Load unpacked’ on the top left and select the ‘dist’ folder of the downloaded repo from your PC
+Now you have a Worldviewsearch-Chrome-Extension folder in your computer.
+![worldview_2](https://user-images.githubusercontent.com/66165810/133148474-501f0d9a-ce5e-480b-911c-0066d360091a.PNG)
+
+
+**Step 2.** Open up google chrome and go to chrome://extensions
+
+**Step 3.** Turn on the developer mode and click load unpacked. Then choose the 'dist' folder in the Worldviewsearch-Chrome-Extension folder that you downloaded.
+
+![worldview_3](https://user-images.githubusercontent.com/66165810/133148276-2354047b-feb4-4d7c-b2c5-325996a2a0f8.PNG)
+
+
+
 
 ### [How to use]
 **Step 1.** Go to the [NASA WorldView website](https://worldview.earthdata.nasa.gov/). 
