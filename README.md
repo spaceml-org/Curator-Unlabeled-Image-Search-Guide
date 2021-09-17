@@ -15,7 +15,7 @@ Self-supervised learning program for training a machine learning model with fewe
 
 ### 3. [Image Similarity Search](https://github.com/spaceml-org/Image-Similarity-Search)
 Reverse image search app. Once you have a dataset and a model trained on the dataset, Image Similarity Search can calculate similarities between images in the dataset and show you similar images within the dataset to an image you pick. This can be used for a sanity check to make sure if your model is trained well.
-  * [Guide] - Coming soon
+  * [Guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/Single_Usage_Guide/Image_Similarity_Search.md)
 
 ### 4. [Index & Search (GCP)](https://github.com/spaceml-org/Scalable-Similarity-Search-with-GCP)
 ‘Image Similarity Search’ app works well with up to 3 million images. If you have a bigger dataset than that, Index & Search (GCP) is recommended for similarity search. It uses Google Cloud Platform which allows you to have bigger storage.
