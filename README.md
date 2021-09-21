@@ -10,15 +10,15 @@ A tool for downloading Earth images. You can download NASA satellite imagery of 
   * [CLI guide](https://github.com/spaceml-org/Curator-the-guide/blob/main/Single_Usage_Guide/GIBS_Downloader.md)
 
 ### 2. [Self-Supervised Learner (SSL)](https://github.com/spaceml-org/Self-Supervised-Learner)
-Self-supervised learning program for training a machine learning model with fewer labeled data. You can train an encoder with unlabeled data and train a classifier with less amount of labeled data compared to supervised learning.
+Self-supervised learning program for training a machine learning model with fewer labeled data. You can train an encoder with unlabeled data and train a classifier with less labeled data compared to supervised learning.
   * [Colab guide](https://github.com/spaceml-org/Self-Supervised-Learner/blob/simsiam/tutorials/PythonColabTutorial_Merced.ipynb)
 
 ### 3. [Image Similarity Search](https://github.com/spaceml-org/Image-Similarity-Search)
-Reverse image search app. Once you have a dataset and a model trained on the dataset, Image Similarity Search can calculate similarities between images in the dataset and show you similar images within the dataset to an image you pick. This can be used for a sanity check to make sure if your model is trained well.
+Reverse image search app. Once you have a dataset and a model trained on the dataset, Image Similarity Search can calculate similarities between images in the dataset and show you similar images within the dataset to an image you pick. This can be used for a sanity check to make sure your model is trained well.
   * [Guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/Single_Usage_Guide/Image_Similarity_Search.md)
 
 ### 4. [Index & Search (GCP)](https://github.com/spaceml-org/Scalable-Similarity-Search-with-GCP)
-‘Image Similarity Search’ app works well with up to 3 million images. If you have a bigger dataset than that, Index & Search (GCP) is recommended for similarity search. It uses Google Cloud Platform which allows you to have bigger storage.
+‘Image Similarity Search’ app works well with up to 3 million images. If you have a bigger dataset than that, Index & Search (GCP) is recommended for similarity search. It uses Google Cloud Platform which allows for larger storage.
   * [Guide] - Coming soon
 
 ### 5. [Swipe Labeler](https://github.com/spaceml-org/Swipe-Labeler)
@@ -31,7 +31,7 @@ A program designed to better your model in an efficient manner. Once you have a 
   * [CLI guide] - Coming soon
 
 ### 7. [Worldview Search Chrome Extension](https://github.com/spaceml-org/Worldviewsearch-Chrome-Extension)
-A chrome extension for finding similar images in [NASA Worldview website](https://worldview.earthdata.nasa.gov/). Take a snapshot of a particular scene in a satellite image on the website. Then our extension will show you similar satellite images to the chosen image.
+A chrome extension for finding similar images in the [NASA Worldview website](https://worldview.earthdata.nasa.gov/). Take a snapshot of a particular scene in a satellite image on the website. Then our extension will show you similar satellite images to the chosen image.
   * [Guide](https://github.com/spaceml-org/Curator-the-guide/blob/main/Single_Usage_Guide/Worldview_Chrome_Extension.md)
 
 ## Combination guide
