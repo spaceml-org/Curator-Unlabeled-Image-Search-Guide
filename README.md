@@ -36,4 +36,4 @@ A chrome extension for finding similar images in the [NASA Worldview website](ht
 
 ## Combination guide
 - [GIBS Downloader + SSL](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/%5BCurator%5D_GIBS_Downloader_%26_Self_Supervised_Learner.ipynb)
-- [SSL + Image Similarity Search + Swipe Labeler + Active Labeller] - Coming soon
+- [SSL + Image Similarity Search + Active Labeller](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/%5BCurator%5D_SSL_%2B_Image_Similarity_Search_%2B_Active_Labeler.ipynb)
