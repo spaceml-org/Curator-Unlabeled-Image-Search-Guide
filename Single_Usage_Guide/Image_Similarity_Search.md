@@ -1,12 +1,12 @@
 ## Image Similarity Search Guide
 
 ### [How to set up]
-**Step 1.** In a command prompt, clone Image Similarity Search repo
+**Step 1.** In a command prompt, clone Image Similarity Search repo.
 ```
 git clone https://github.com/spaceml-org/Image-Similarity-Search
 ```
 
-**Step 2.** Change the current directory to Image Similarity Search folder and download requirements
+**Step 2.** Change the current directory to Image Similarity Search folder and download requirements.
 ```
 cd Image-Similarity-Search
 pip install -r requirements.txt
@@ -21,7 +21,7 @@ streamlit run app.py
 ```
 Then Image Similarity Search app will pop up in your browser.
 
-**Step 2.** Upload a model file in a .pt of .pth format.
+**Step 2.** Upload a model file in a .pt or .pth format.
 
 **Step 3.** Enter the absolute path of the dataset you want to use for indexing. The dataset should be organized in [PyTorch ImageFolder](https://pytorch.org/vision/stable/datasets.html#torchvision.datasets.ImageFolder) format.
 
