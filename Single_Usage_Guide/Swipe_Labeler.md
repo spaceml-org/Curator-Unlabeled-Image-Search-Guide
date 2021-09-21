@@ -18,13 +18,13 @@ python3 -m venv venv
 . venv/bin/activate
 ```
 
-**Step 3.** Install python dependencies
+**Step 3.** Install python dependencies.
 ```
 pip install -r api/requirements.txt
 ```
 
 ### [How to use]
-**Step 1.** Run Swipe Labeler with below form of a command
+**Step 1.** Run Swipe Labeler with the command formatted similarly to the one shown below.
 ```
 python api/api.py --path_for_unlabeled=(the complete path to your directory of unlabeled images) --batch_size=(optional batch size , default is 5)
 ```
