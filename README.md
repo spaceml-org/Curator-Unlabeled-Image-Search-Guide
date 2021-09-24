@@ -50,20 +50,35 @@ A chrome extension for finding similar images in the [NASA Worldview website](ht
 Self-Supervised Learner, Image Similarity Search, Index & Search (GCP) and Active Labeler require a dataset to be organized in [PyTorch ImageFolder](https://pytorch.org/vision/stable/datasets.html#torchvision.datasets.ImageFolder) format like this:
 ```
 /Dataset
-    /Class1
+    /Class 1
         Image1.png
         Image2.png
-    /Class2
+    /Class 2
         Image3.png
         Image4.png
 ```
 
-In case there is no label, you can organize images like this:
+UC Merced Land Use dataset, which is used in some of our guide notebooks, is a good example:
+```
+/UCMerced_LandUse
+    /Images
+        /agricultural
+            agricultural00.tif
+            agricultural01.tif
+            ...
+        /airplane
+            airplane00.tif
+            airplane01.tif
+            ...
+        /...
+```
+
+In case there is no labels, you can organize images like this:
 ```
 /Dataset
     /Unlabelled
         Image1.png
         Image2.png
         Image3.png
-        Image4.png
 ```
+
