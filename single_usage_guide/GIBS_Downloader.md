@@ -2,6 +2,8 @@
 GIBS Downloader can be run either in conda prompt or google Colab. 
 Click [here](https://github.com/spaceml-org/GIBS-Downloader/blob/main/notebooks/GIBS_Downloader_Demo.ipynb) to check out google Colab demo.
 
+&nbsp;
+
 ### [How to set up]
 **Step 1.** Download Anaconda or Miniconda (Anaconda in this example)
 
@@ -12,6 +14,8 @@ Click [here](https://github.com/spaceml-org/GIBS-Downloader/blob/main/notebooks/
 conda install -c conda-forge gdal=3.2.0
 pip install git+https://github.com/spaceml-org/GIBS-Downloader.git#egg=GIBSDownloader
 ```
+
+&nbsp;
 
 ### [How to use]
 You can use GIBS Downloader by running a single command like this:
@@ -29,6 +33,8 @@ There are 4 positional arguments that must be included in the command:
 
 If you don't know the coordinates of the region you want to get images of, go to google Maps and right click at the spot you want to get the coordinates of.
 
-![GIBS_Conda Prompt1](https://user-images.githubusercontent.com/66165810/132446559-8f1dfaf8-5d26-4cd6-8607-260466adf60e.gif)
-
 Check out [GIBS Downloader repo](https://github.com/spaceml-org/GIBS-Downloader) to see more parameters ready for you.
+
+&nbsp;
+
+![GIBS_Conda Prompt1](https://user-images.githubusercontent.com/66165810/132446559-8f1dfaf8-5d26-4cd6-8607-260466adf60e.gif)
