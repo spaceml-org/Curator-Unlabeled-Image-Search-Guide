@@ -14,6 +14,8 @@ pip install -r requirements.txt
 
 **Step 3.** Install FAISS package following [this instruction](https://github.com/facebookresearch/faiss/blob/main/INSTALL.md)
 
+&nbsp;
+
 ### [How to use]
 **Step 1.** In a command prompt, go to Image Similarity Search folder and launch streamlit server.
 ```
@@ -46,5 +48,16 @@ ex) If you enter 5, you'll see 5 similar images to the query image you'd upload 
 
 **Step 7.** Once the indexing is done, you can search similar images to any image you pick by uploading the image in the Upload Query Image Section and click ```Search``` button.
 
+&nbsp;
 
 ![Image_Similarity_Search](https://user-images.githubusercontent.com/66165810/133855102-272063ec-2a54-40e9-a655-90a20f39937b.gif)
+
+&nbsp;
+
+### **[Sample model & dataset]**
+
+A sample model (uc_merced.pt) is provided in [Image-Similarity-Search/samples/](https://github.com/spaceml-org/Image-Similarity-Search/tree/master/samples) folder and you can download UC Merced Land Use dataset by running these commands:
+```
+wget http://weegee.vision.ucmerced.edu/datasets/UCMerced_LandUse.zip
+unzip -qq UCMerced_LandUse.zip
+```
