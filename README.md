@@ -3,6 +3,10 @@
 # Curator, the guide
 This is a guide for SpaceML’s machine learning pipeline that has seven components which are summarized below. Each program serves a different role in the pipeline from downloading satellite images and labeling images to training a machine learning model, improving an existing model and doing image similarity search. These programs can be used altogether but you can also utilize just one of them or a few of them according to your needs. Throughout this guide, we will showcase a few ways to combine this pipeline.
 
+
+&nbsp;
+
+
 ## Program description & guide
 ### 1. [GIBS Downloader](https://github.com/spaceml-org/GIBS-Downloader)
 A tool for downloading Earth images. You can download NASA satellite imagery of certain areas and certain time periods that you designate. It is useful to build an Earth image dataset.
@@ -32,8 +36,34 @@ A program designed to better your model in an efficient manner. Once you have a 
 A chrome extension for finding similar images in the [NASA Worldview website](https://worldview.earthdata.nasa.gov/). Take a snapshot of a particular scene in a satellite image on the website. Then our extension will show you similar satellite images to the chosen image.
   * [Guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/single_usage_guide/Worldview_Chrome_Extension.md)
 
+&nbsp;
+
 ## Combination guide
 ### 1. [GIBS Downloader](https://github.com/spaceml-org/GIBS-Downloader) + [Self-Supervised Learner](https://github.com/spaceml-org/Self-Supervised-Learner)
   * [Guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/notebooks/GIBS_Downloader%2BSelf_Supervised_Learner.ipynb)
 ### 2. [Self-Supervised Learner](https://github.com/spaceml-org/Self-Supervised-Learner) + [Image Similarity Search](https://github.com/spaceml-org/Image-Similarity-Search) + [Active Labeler](https://github.com/spaceml-org/Active-Labeller)
   * [Guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/notebooks/SSL%2BImage_Similarity_Search%2BActive_Labeler.ipynb)
+
+&nbsp;
+
+## Required dataset format
+Self-Supervised Learner, Image Similarity Search, Index & Search (GCP) and Active Labeler require a dataset to be organized in [PyTorch ImageFolder](https://pytorch.org/vision/stable/datasets.html#torchvision.datasets.ImageFolder) format like this:
+```
+/Dataset
+    /Class1
+        Image1.png
+        Image2.png
+    /Class2
+        Image3.png
+        Image4.png
+```
+
+In case there is no label, you can organize images like this:
+```
+/Dataset
+    /Unlabelled
+        Image1.png
+        Image2.png
+        Image3.png
+        Image4.png
+```
