@@ -73,7 +73,7 @@ UC Merced Land Use dataset, which is used in some of our guide notebooks, is a g
         /...
 ```
 
-In case there is no labels, you can organize images like this:
+In case there are no labels, you can organize images like this:
 ```
 /Dataset
     /Unlabelled
