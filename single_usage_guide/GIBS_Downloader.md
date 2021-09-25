@@ -14,6 +14,9 @@ Click [here](https://github.com/spaceml-org/GIBS-Downloader/blob/main/notebooks/
 conda install -c conda-forge gdal=3.2.0
 pip install git+https://github.com/spaceml-org/GIBS-Downloader.git#egg=GIBSDownloader
 ```
+![image](https://user-images.githubusercontent.com/66165810/134761088-ffce39a9-b655-4a5a-a0bf-71db7606f2f0.png)
+![image](https://user-images.githubusercontent.com/66165810/134761102-66420958-61b0-464d-837c-785d4038b4be.png)
+
 
 &nbsp;
 
