@@ -36,7 +36,7 @@ pip install -r ./Active-Labeler/requirements.txt
 **Step 2.**
 Run a command in the following format:
 ```
-python3 main.py --config_path {path_to_config.yaml}
+python3 ./Active-Labeler/main.py --config_path {path_to_config.yaml}
 ```
 
 ex)
