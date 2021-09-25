@@ -5,11 +5,14 @@
 ```
 git clone https://github.com/spaceml-org/Image-Similarity-Search
 ```
+![image](https://user-images.githubusercontent.com/66165810/134760651-8d276bd7-d7fe-4349-945f-6dbd27b13fe6.png)
+
 
 **Step 2.** Download requirements.
 ```
 pip install -r ./Image-Similarity-Search/requirements.txt
 ```
+![image](https://user-images.githubusercontent.com/66165810/134760674-99fdb0d6-f248-4b8c-82fc-e7cac1544f0b.png)
 
 **Step 3.** Install FAISS package following [this instruction](https://github.com/facebookresearch/faiss/blob/main/INSTALL.md)
 
