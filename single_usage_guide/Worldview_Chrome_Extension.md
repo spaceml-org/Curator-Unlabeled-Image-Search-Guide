@@ -19,8 +19,7 @@ Now you have a Worldviewsearch-Chrome-Extension folder in your computer.
 
 ![worldview_3](https://user-images.githubusercontent.com/66165810/133148276-2354047b-feb4-4d7c-b2c5-325996a2a0f8.PNG)
 
-
-
+&nbsp;
 
 ### [How to use]
 **Step 1.** Go to the [NASA WorldView website](https://worldview.earthdata.nasa.gov/). 
