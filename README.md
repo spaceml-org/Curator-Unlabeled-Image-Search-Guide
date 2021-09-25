@@ -42,8 +42,8 @@ A chrome extension for finding similar images in the [NASA Worldview website](ht
 ## Combination guide
 ### 1. [GIBS Downloader](https://github.com/spaceml-org/GIBS-Downloader) + [Self-Supervised Learner](https://github.com/spaceml-org/Self-Supervised-Learner)
   * [Guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/notebooks/GIBS_Downloader%2BSelf_Supervised_Learner.ipynb)
-### 2. [Self-Supervised Learner](https://github.com/spaceml-org/Self-Supervised-Learner) + [Image Similarity Search](https://github.com/spaceml-org/Image-Similarity-Search) + [Active Labeler](https://github.com/spaceml-org/Active-Labeller)
-  * [Guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/notebooks/SSL%2BImage_Similarity_Search%2BActive_Labeler.ipynb)
+### 2. [Self-Supervised Learner](https://github.com/spaceml-org/Self-Supervised-Learner) + [Image Similarity Search](https://github.com/spaceml-org/Image-Similarity-Search) + [Swipe Labeler](https://github.com/spaceml-org/Swipe-Labeler) + [Active Labeler](https://github.com/spaceml-org/Active-Labeller)
+  * [Guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/notebooks/SSL%2BImage_Similarity_Search%2BSwipe_Labeler%2BActive_Labeler.ipynb)
 
 &nbsp;
 
