@@ -1,6 +1,9 @@
-# Active Labeler Guide
+## Active Labeler Guide
+This is a CLI guide for Active Labeler. If you want to check out the Colab notebook guide, click [here.](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/notebooks/Active_Labeler.ipynb)
 
-## [How to set up]
+&nbsp;
+
+### [How to set up]
 **Step 1.** Open up your CLI and clone the Active Labeler repo
 ```
 git clone https://github.com/spaceml-org/Active-Labeler.git
@@ -14,7 +17,7 @@ pip install -r ./Active-Labeler/requirements.txt
 
 &nbsp;
 
-## [How to use]
+### [How to use]
 **Step 1.** Change [model_config.yaml](https://github.com/spaceml-org/Active-Labeler/blob/main/model_config.yaml) file and [pipeline_config.yml](https://github.com/spaceml-org/Active-Labeler/blob/main/pipeline_config.yaml) file according to the model and dataset you want to use. The main changes will be the locations of the model file and the refrence image file along with the model's embedding size and the image size used for training the model. 
 
 &emsp; &emsp; **[model_config.yaml]**
