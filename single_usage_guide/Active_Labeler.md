@@ -7,10 +7,9 @@ git clone https://github.com/spaceml-org/Active-Labeler.git
 ```
 
 
-**Step 2.** Change directory to the Active-Labeler folder and install requirements
+**Step 2.** Install requirements
 ```
-cd Active-Labeler
-pip install -r requirements.txt
+pip install -r ./Active-Labeler/requirements.txt
 ```
 
 ## [How to use]
