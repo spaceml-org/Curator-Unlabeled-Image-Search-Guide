@@ -15,15 +15,15 @@ pip install -r ./Active-Labeler/requirements.txt
 &nbsp;
 
 ## [How to use]
-**Step 1.** Change [model_config.yaml](https://github.com/spaceml-org/Active-Labeler/blob/main/model_config.yaml) file and [pipeline_config.yml](https://github.com/spaceml-org/Active-Labeler/blob/main/pipeline_config.yaml) file according to the model and dataset you want to use. The changes will be the locations of the model file and the refrence image file along with the model's embedding size and the image size used for training the model. 
+**Step 1.** Change [model_config.yaml](https://github.com/spaceml-org/Active-Labeler/blob/main/model_config.yaml) file and [pipeline_config.yml](https://github.com/spaceml-org/Active-Labeler/blob/main/pipeline_config.yaml) file according to the model and dataset you want to use. The main changes will be the locations of the model file and the refrence image file along with the model's embedding size and the image size used for training the model. 
 
 &emsp; &emsp; **[model_config.yaml]**
 
-&emsp; &emsp; <img width="640" alt="snapshot button" src="https://user-images.githubusercontent.com/66165810/134759739-b507ccf5-168d-4f61-8b73-e4401d216a55.PNG">
+&emsp; &emsp; <img width="640" alt="snapshot button" src="https://user-images.githubusercontent.com/66165810/134760273-8366e625-9bca-4694-bd3b-b711c43ef875.PNG">
 
 &emsp; &emsp; **[pipeline_config.yaml]**
 
-&emsp; &emsp; <img width="640" alt="snapshot button" src="https://user-images.githubusercontent.com/66165810/134759966-3ec8e0e2-9235-4f23-a1f1-18cdaa857794.PNG">
+&emsp; &emsp; <img width="640" alt="snapshot button" src="https://user-images.githubusercontent.com/66165810/134760236-3ce45a43-21e9-4b2a-bbfd-49eb538b28c0.PNG">
 
 
 **Step 2.**
