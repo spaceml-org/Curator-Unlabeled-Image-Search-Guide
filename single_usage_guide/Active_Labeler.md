@@ -1,6 +1,10 @@
 ## Active Labeler Guide
 This is a CLI guide for Active Labeler. If you want to check out the Colab guide, click [here.](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/notebooks/Active_Labeler.ipynb)
 
+&nbsp;
+
+**[Note]**
+
 You need Swipe Labeler to label images while running Active Labeler. Please refer to the Swipe Labeler [repo](https://github.com/spaceml-org/Swipe-Labeler) and the [guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/single_usage_guide/Swipe_Labeler.md) to set up and use it. If you want to run Swipe Labeler on Colab, run this command and get the link to access Swipe Labeler as shown in the [Active Labeler Colab guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/notebooks/Active_Labeler.ipynb):
 ```
 from google.colab.output import eval_js
