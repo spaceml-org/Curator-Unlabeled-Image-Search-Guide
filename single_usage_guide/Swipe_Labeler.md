@@ -3,10 +3,9 @@
 ### [How to set up]
 **Step 1.** Install python3 and pip.
 
-**Step 2.** Clone Swipe Labeler repo and change directory into Swipe-Labeler.
+**Step 2.** Clone Swipe Labeler repo.
 ```
 git clone https://github.com/spaceml-org/Swipe-Labeler
-cd Swipe-Labeler
 ```
 
 **(Optional)** Create and activate a virtual environment.
@@ -20,7 +19,7 @@ python3 -m venv venv
 
 **Step 3.** Install python dependencies.
 ```
-pip install -r api/requirements.txt
+pip install -r ./Swipe-Labeler/api/requirements.txt
 ```
 
 ### [How to use]
