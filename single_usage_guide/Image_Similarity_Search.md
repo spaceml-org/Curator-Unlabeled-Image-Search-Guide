@@ -6,10 +6,9 @@
 git clone https://github.com/spaceml-org/Image-Similarity-Search
 ```
 
-**Step 2.** Change the current directory to Image Similarity Search folder and download requirements.
+**Step 2.** Download requirements.
 ```
-cd Image-Similarity-Search
-pip install -r requirements.txt
+pip install -r ./Image-Similarity-Search/requirements.txt
 ```
 
 **Step 3.** Install FAISS package following [this instruction](https://github.com/facebookresearch/faiss/blob/main/INSTALL.md)
