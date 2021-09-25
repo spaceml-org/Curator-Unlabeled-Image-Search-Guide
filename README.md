@@ -31,6 +31,7 @@ GUI based image labeling program. You can easily label images by swiping right/l
 ### 6. [Active Labeler](https://github.com/spaceml-org/Active-Labeller)
 A program designed to better your model in an efficient manner. Once you have a trained model, Active Labeler will pick out images that the model has the most difficulty with. Then you’ll label those images through Swipe Labeler and retrain the model with the newly labeled images so that the model can overcome its weakness.
   * [Colab guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/notebooks/Active_Labeler.ipynb)
+  * [CLI guide](https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/single_usage_guide/Active_Labeler.md)
 
 ### 7. [Worldview Search Chrome Extension](https://github.com/spaceml-org/Worldviewsearch-Chrome-Extension)
 A chrome extension for finding similar images in the [NASA Worldview website](https://worldview.earthdata.nasa.gov/). Take a snapshot of a particular scene in a satellite image on the website. Then our extension will show you similar satellite images to the chosen image.
