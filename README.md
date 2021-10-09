@@ -1,4 +1,4 @@
-![curator_banner](https://user-images.githubusercontent.com/66165810/132762978-895e7c3c-4377-47ab-bbce-72bc17e94f79.png)
+<img src="https://github.com/spaceml-org/Self-Supervised-Learner/blob/main/Curator_Icons/curator-simple-header.jpg" >
 
 # Curator, the guide
 This is a guide for SpaceML’s machine learning pipeline that has seven components which are summarized below. Each program serves a different role in the pipeline from downloading satellite images and labeling images to training a machine learning model, improving an existing model and doing image similarity search. These programs can be used altogether but you can also utilize just one of them or a few of them according to your needs. Throughout this guide, we will showcase a few ways to combine this pipeline.
