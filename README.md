@@ -1,6 +1,8 @@
-<img src="https://github.com/spaceml-org/Self-Supervised-Learner/blob/main/Curator_Icons/curator-simple-header.jpg" >
+<div align="center">
+<img src="https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide/blob/main/curator-complex-header.jpg" >
+</div>
 
-# Curator, the guide
+# Curator, the guide :earth_americas:
 This is a guide for SpaceML’s machine learning pipeline that has seven components which are summarized below. Each program serves a different role in the pipeline from downloading satellite images and labeling images to training a machine learning model, improving an existing model and doing image similarity search. These programs can be used altogether but you can also utilize just one of them or a few of them according to your needs. Throughout this guide, we will showcase a few ways to combine this pipeline.
 
 
@@ -83,3 +85,13 @@ In case there are no labels, you can organize images like this:
         Image3.png
 ```
 
+## Citation
+If you find Curator useful in your research, please consider citing the github code for this tool:
+```
+@code{
+  title={Curator: A No-Code, Self-Supervised Learning and Active Labeling Tool to Create Labeled Image Datasets from Petabyte-Scale Imagery,
+},
+  url={https://github.com/spaceml-org/Curator-Unlabeled-Image-Search-Guide},
+  year={2021}
+}
+```
